@@ -1,9 +1,13 @@
+# athletic_sales_analysis
+This notebook analyses data in a csv that has information about athletic gear sales for men and women
+
 ## The following shows the steps of the notebook file.
 
 Combine and Clean the Data
-The two DataFrames have been combined on the rows using an inner join and the index has been reset.
 
-The "invoice_date" column has been converted to a datetime data type.
+>The two DataFrames have been combined on the rows using an inner join and the index has been reset.
+>
+>The "invoice_date" column has been converted to a datetime data type.
 
 Determine which Region Sold the Most Products 
 >A groupby or pivot_table function has been used to create a multi-index DataFrame with the "region", "state", and "city" columns. 
